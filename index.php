@@ -19,19 +19,38 @@
 <div id="loaderback" ><div id="loader" class="loader"></div> </div>
 
 <!-- menu -->
-    <nav>
-   <div class="nav-wrapper">
-     <a href="#" class="brand-logo">Pimp Society</a>
-     <ul id="nav-mobile" class="right hide-on-med-and-down">
-       <li><a href="sass.html">Nos offres</a></li>
-       <li><a href="badges.html">Devis</a></li>
-       <li><a href="collapsible.html">Contact</a></li>
-     </ul>
+  <nav>
+   <div class="nav-wrapper teal accent-4">
+     <div class="container">
+       <a href="#" class="brand-logo">Pimp Society</a>
+       <ul id="nav-mobile" class="right hide-on-med-and-down">
+         <li><a href="sass.html">Nos offres</a></li>
+         <li><a href="badges.html">Devis</a></li>
+         <li><a href="collapsible.html">Contact</a></li>
+       </ul>
+     </div>
    </div>
  </nav>
 
+<!-- 1er -->
+<div class="container">
+        <div class="section">
+
+          <div class="row">
+            <h3 class="col s12 light center header">Offrez-vous un site sur mesure !</h3>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+
 <!-- Contact -->
 <div class="row">
+  <div class="container">
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">
@@ -63,9 +82,10 @@
      </button>
     </form>
   </div>
+</div>
  <!-- footer -->
 
- <footer class="page-footer">
+ <footer class="page-footer grey lighten-5 blue-text text-darken-2">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
