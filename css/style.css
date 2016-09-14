@@ -1,3 +1,22 @@
+/*Surcouche materialize*/
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 80px;
+    line-height: 80px;
+}
+/*Fin surcouche materialize*/
+
+/*Pimp.CSS*/
+.PimpMarginX1{
+	margin-top: 25px;
+}
+.PimpMarginX2{
+	margin-top: 50px;
+}
+.PimpMarginX3{
+	margin-top: 75px;
+}
+/*FinPimpCSS*/
+
 #loaderback {
 	position: fixed;
 	top: 0;
