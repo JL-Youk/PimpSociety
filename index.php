@@ -19,6 +19,7 @@
     <script src="js/search.js"></script>
     <script src="js/scrollTo.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/scrollreveal.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
@@ -36,6 +37,7 @@
          <li><a href="#Offres">Nos offres</a></li>
          <li><a href="#Devis">Devis</a></li>
          <li><a href="#Contact">Contact</a></li>
+         <li><a href="#social">Social</a></li>
        </ul>
      </div>
    </div>
@@ -65,37 +67,91 @@
   </div>
 </div>
  <!--Fin  Slide1 -->
-<!--idée -->
-<div id="realisation">
-  <div class="container">
-    <div class="section">
-      <div class="row">
-        <h2 class="col s12 light center header">Réalisation</h2>
-      </div>
-      <div class="row realisationItem">
-        <img src="images/light-bulbnewon.png" alt="" />
-      </div>
-      <div class="row realisationItem">
-        <img id="engine1" src="images/engrenage1.png" style="animation: rotation1 18s linear infinite;">
-        <img id="engine2" src="images/engrenage2.png" style="animation: rotation2 15s linear infinite;">
-        <img id="engine3" src="images/engrenage3.png" style="animation: rotation3 14s linear infinite;">
-      </div>
-      <div class="row realisationItem">
-        <img src="images/server.png" alt="" />
-      </div>
-    </div>
-  </div>
-</div>
-<!--Fin idée -->
+
 
 
  <div class="parallax-container">
    <div class="parallax"><img src="images/laptop-1209008_1280.jpg"></div>
   </div>
   <div class="section white">
-    <div class="row container">
-      <h2 class="header">blabla</h2>
-      <p class="grey-text text-darken-3 lighten-3">blablablabal</p>
+    <div class="container">
+      <div class="row Reveallext">
+        <div class="col s12 RevealDiv center">
+          <h3>Réalisation</h3>
+        </div>
+      </div>
+      <!-- Gauche -->
+      <div class="row Reveallext right-align">
+        <div class="col s5">
+          <h5>votre idée</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col s2 center">
+          <h1>
+            <i class="material-icons icon_realisations">wb_incandescent</i>
+        </div>
+      </div>
+      <!-- Droite -->
+      <div class="row Reveallext left-align">
+        <div class="col s2 center offset-s5">
+            <i class="material-icons icon_realisations">build</i>
+        </div>
+        <div class="col s5">
+          <h5>Projet</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+      <!-- Gauche -->
+      <div class="row RevealDiv right-align">
+        <div class="col s5">
+          <h5>Code and design</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col s2 center">
+            <i class="material-icons icon_realisations">code</i>
+        </div>
+      </div>
+      <!-- Droite -->
+      <div class="row Reveallext left-align">
+        <div class="col s2 center offset-s5">
+            <i class="material-icons icon_realisations">bug_report</i>
+        </div>
+        <div class="col s5">
+          <h5>Review</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+      <!-- Gauche -->
+      <div class="row RevealDiv left-align">
+        <div class="col s5">
+          <h5>Deploiement</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col s2 center">
+            <i class="material-icons icon_realisations">cloud_done</i>
+        </div>
+      </div>
+      <!-- centre -->
+      <div class="row Reveallext center">
+        <div class="col m12">
+          <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="images/ecran.png"></a>
+            <a class="carousel-item" href="#two!"><img src="images/pc_portable.png"></a>
+            <a class="carousel-item" href="#three!"><img src="images/tablette.png"></a>
+            <a class="carousel-item" href="#four!"><img src="images/mobil.png"></a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="parallax-container">
@@ -105,41 +161,52 @@
 
 
 <!-- Contact -->
-<div class="row">
-  <h1 class="col s12 light center header">Contact</h1>
-  <h3 class="col s12 light center header">blablabla de contact</h3>
-</div>
 <div class="row" id="Contact">
+  <h1 class="col s12 light center header RevealElementForm">Contact</h1>
+  <h3 class="col s12 light center header RevealElementForm">blablabla de contact</h3>
+</div>
+<div class="row" >
   <div class="container">
-    <form class="col s12">
+    <form class="col s12" id="formulaireContact">
       <div class="row">
-        <div class="input-field col m6 s12">
+        <div class="input-field col m6 s12 RevealElementForm">
           <i class="material-icons prefix">account_circle</i>
           <input required id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Nom</label>
         </div>
-        <div class="input-field col m6 s12">
+        <div class="input-field col m6 s12 RevealElementForm">
           <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="tel" class="validate">
+          <input required id="icon_telephone" type="tel" class="validate">
           <label for="icon_telephone">Telephone</label>
         </div>
       </div>
       <div class="row">
-        <div class="input-field col s12">
+        <div class="input-field col s6 RevealElementForm">
           <i class="material-icons prefix">email</i>
           <input required id="email" type="email" class="validate">
           <label for="email" data-error="wrong" data-success="right">Mail</label>
         </div>
+        <div class="input-field col s6 RevealElementForm">
+          <i class="material-icons prefix">web</i>
+          <select required>
+            <option value="0" disabled selected>Choisir votre projet</option>
+            <option value="1">Site internet</option>
+            <option value="2">Logiciel</option>
+            <option value="3">Application mobil</option>
+            <option value="4">Autre</option>
+          </select>
+          <label>Votre projet</label>
+        </div>
       </div>
       <div class="row">
-          <div class="input-field col s12">
+          <div class="input-field col s12 RevealElementForm">
             <i class="material-icons prefix">mode_edit</i>
            <textarea id="textarea1" class="materialize-textarea"></textarea>
            <label for="textarea1">Message</label>
          </div>
        </div>
 
-       <button class="btn waves-effect waves-light z-depth-4" type="submit" name="action">Submit
+       <button class="btn waves-effect waves-light z-depth-4 RevealElementForm" type="submit" name="action">Submit
          <i class="material-icons right">send</i>
        </button>
       </div>
@@ -147,9 +214,12 @@
   </div>
   <div class="PimpMarginX3"></div>
 </div>
+<div class="parallax-container">
+  <div class="parallax"><img src="images/galaxy.jpg"></div>
+</div>
  <!-- footer -->
 
- <footer class="page-footer  blue-grey darken-3">
+ <footer class="page-footer blue-grey darken-4" id="social">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
@@ -166,7 +236,7 @@
             </div>
           </div>
         </div>
-        <div class="footer-copyright blue-grey darken-4">
+        <div class="footer-copyright grey darken-4">
           <div class="container">
           © 2016 Copyright PimpSociety
           </div>
