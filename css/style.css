@@ -1,7 +1,15 @@
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+
 /*Surcouche materialize*/
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 80px;
     line-height: 80px;
+}
+footer.page-footer{
+  margin-top: 0px; 
 }
 /*Fin surcouche materialize*/
 
@@ -39,7 +47,10 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 margin-bottom: 150px;
 }
 /*FinPimpCSS*/
-
+.icon_realisations{
+  font-size: 80px;
+color: #71d6c8;
+}
 #loaderback {
 	position: fixed;
 	top: 0;
