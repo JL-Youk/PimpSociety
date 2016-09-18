@@ -30,14 +30,14 @@
   <nav>
    <div class="nav-wrapper teal accent-4">
      <div class="container">
-       <a href="#" class="brand-logo">Pimp Society</a>
-       <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+       <a href="#" class="brand-logo waves-effect waves-light">Pimp Society</a>
+       <a href="#" data-activates="slide-out" class="button-collapse waves-effect waves-light"><i class="material-icons">menu</i></a>
 
-       <ul id="nav-mobile" class="right hide-on-med-and-down">
-         <li><a href="#Offres">Nos offres</a></li>
-         <li><a href="#Devis">Devis</a></li>
-         <li><a href="#Contact">Contact</a></li>
-         <li><a href="#social">Social</a></li>
+       <ul id="nav-mobile" class="right hide-on-med-and-down ">
+         <li class="waves-effect waves-light"><a href="#Offres">Nos offres</a></li>
+         <li class="waves-effect waves-light"><a href="#Devis">Devis</a></li>
+         <li class="waves-effect waves-light"><a href="#Contact">Contact</a></li>
+         <li class="waves-effect waves-light"><a href="#social">Social</a></li>
        </ul>
      </div>
    </div>
@@ -229,9 +229,9 @@
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Socials</h5>
               <div>
-                <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-                <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-                <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                <a class="grey-text text-lighten-3 waves-effect waves-light" href="#!"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                <a class="grey-text text-lighten-3 waves-effect waves-light" href="#!"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                <a class="grey-text text-lighten-3 waves-effect waves-light" href="#!"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
