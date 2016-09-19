@@ -7,7 +7,7 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-
+    <title>P:Society</title>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!--Import jQuery before materialize.js-->
@@ -53,6 +53,8 @@
    <li><div class="divider"></div></li>
    <li><a href="#Contact">Contact</a></li>
    <li><div class="divider"></div></li>
+   <li><a href="#social">Social</a></li>
+   <li><div class="divider"></div></li>
 </ul>
 
  <!--fin menu mobil-->
@@ -73,32 +75,44 @@
  <div class="parallax-container">
    <div class="parallax"><img src="images/laptop-1209008_1280.jpg"></div>
   </div>
-  <div class="section white">
+  <div class="section white" id="Offres">
     <div class="container">
       <div class="row Reveallext">
         <div class="col s12 RevealDiv center">
           <h3>Réalisation</h3>
         </div>
       </div>
+      <!-- Droite -->
+      <div class="row Reveallext left-align">
+        <div class="col l2 s4 center offset-l5">
+            <i class="material-icons icon_realisations">message</i>
+        </div>
+        <div class="col l5 s8">
+          <h5>Contact</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
       <!-- Gauche -->
       <div class="row Reveallext right-align">
-        <div class="col s5">
+        <div class="col l5 s8">
           <h5>votre idée</h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div class="col s2 center">
+        <div class="col l2 s4 center">
           <h1>
             <i class="material-icons icon_realisations">wb_incandescent</i>
         </div>
       </div>
       <!-- Droite -->
       <div class="row Reveallext left-align">
-        <div class="col s2 center offset-s5">
+        <div class="col l2 s4 center offset-l5">
             <i class="material-icons icon_realisations">build</i>
         </div>
-        <div class="col s5">
+        <div class="col l5 s8">
           <h5>Projet</h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -107,22 +121,22 @@
       </div>
       <!-- Gauche -->
       <div class="row RevealDiv right-align">
-        <div class="col s5">
+        <div class="col l5 s8">
           <h5>Code and design</h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div class="col s2 center">
+        <div class="col l2 s4 center">
             <i class="material-icons icon_realisations">code</i>
         </div>
       </div>
       <!-- Droite -->
       <div class="row Reveallext left-align">
-        <div class="col s2 center offset-s5">
+        <div class="col l2 s4 center offset-l5">
             <i class="material-icons icon_realisations">bug_report</i>
         </div>
-        <div class="col s5">
+        <div class="col l5 s8">
           <h5>Review</h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -131,13 +145,13 @@
       </div>
       <!-- Gauche -->
       <div class="row RevealDiv left-align">
-        <div class="col s5">
+        <div class="col l5 s8">
           <h5>Deploiement</h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div class="col s2 center">
+        <div class="col l2 s4 center">
             <i class="material-icons icon_realisations">cloud_done</i>
         </div>
       </div>
@@ -154,10 +168,22 @@
       </div>
     </div>
   </div>
+
   <div class="parallax-container">
+    <div class="col m12 center divIntoParallax RevealIntoParallax" >
+      Hello
+    </div>
     <div class="parallax"><img src="images/computer-1209641_1920.jpg"></div>
   </div>
 
+
+
+  <div class="parallax-container">
+    <div class="col m12 center divIntoParallax RevealIntoParallax" >
+      Hello
+    </div>
+    <div class="parallax"><img src="images/1473424073941.png"></div>
+  </div>
 
 
 <!-- Contact -->
@@ -169,24 +195,24 @@
   <div class="container">
     <form class="col s12" id="formulaireContact">
       <div class="row">
-        <div class="input-field col m6 s12 RevealElementForm">
+        <div class="input-field col m6 s12 ">
           <i class="material-icons prefix">account_circle</i>
           <input required id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Nom</label>
         </div>
-        <div class="input-field col m6 s12 RevealElementForm">
+        <div class="input-field col m6 s12 ">
           <i class="material-icons prefix">phone</i>
           <input required id="icon_telephone" type="tel" class="validate">
           <label for="icon_telephone">Telephone</label>
         </div>
       </div>
       <div class="row">
-        <div class="input-field col s6 RevealElementForm">
+        <div class="input-field col m6 s12 ">
           <i class="material-icons prefix">email</i>
           <input required id="email" type="email" class="validate">
           <label for="email" data-error="wrong" data-success="right">Mail</label>
         </div>
-        <div class="input-field col s6 RevealElementForm">
+        <div class="input-field col m6 s12 ">
           <i class="material-icons prefix">web</i>
           <select required>
             <option value="0" disabled selected>Choisir votre projet</option>
@@ -199,7 +225,7 @@
         </div>
       </div>
       <div class="row">
-          <div class="input-field col s12 RevealElementForm">
+          <div class="input-field col s12 ">
             <i class="material-icons prefix">mode_edit</i>
            <textarea id="textarea1" class="materialize-textarea"></textarea>
            <label for="textarea1">Message</label>
@@ -214,12 +240,16 @@
   </div>
   <div class="PimpMarginX3"></div>
 </div>
+
 <div class="parallax-container">
+  <div class="col m12 center divIntoParallax RevealIntoParallax" >
+    Hello
+  </div>
   <div class="parallax"><img src="images/galaxy.jpg"></div>
 </div>
  <!-- footer -->
 
- <footer class="page-footer blue-grey darken-4" id="social">
+ <footer class="page-footer grey darken-4" id="social">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
@@ -236,7 +266,7 @@
             </div>
           </div>
         </div>
-        <div class="footer-copyright grey darken-4">
+        <div class="footer-copyright black">
           <div class="container">
           © 2016 Copyright PimpSociety
           </div>
