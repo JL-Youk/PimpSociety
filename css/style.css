@@ -9,7 +9,7 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     line-height: 80px;
 }
 footer.page-footer{
-  margin-top: 0px; 
+  margin-top: 0px;
 }
 /*Fin surcouche materialize*/
 
@@ -96,4 +96,13 @@ color: #71d6c8;
 }
 .brand-logo{
   margin-left: 25px;
+}
+.divIntoParallax{
+  color: white;
+  margin: 30%;
+  margin-top: 201px;
+  padding: 10px;
+  font-size: 39px;
+  border: 2px solid rgba(255, 255, 255, 0.39);
+  background-color: rgba(255, 255, 255, 0.18);
 }
