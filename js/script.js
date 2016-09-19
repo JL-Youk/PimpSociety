@@ -36,8 +36,10 @@ $(document).ready(function($) {
 	window.sr= new ScrollReveal({
 	reset: true, // faire disparaitre l'élément en dehors du scroll. Par défaut false
 	});
- sr.reveal('.RevealDiv', { duration: 1500,  });
+ sr.reveal('.R̛̟̘̦̰̘͉̤ͤͨ̉̽̐͛̽̋͊ͥ͌͋ͮͥ̂̑̚̚͠e̿͛͐̑ͪ͑ͩ̅̈́ͩͮ̀̍̽̍̄̚̚͏͜͏̯̜͓͙͍̳̯̝̦͙͙͕̤̬͎̮͠ͅͅv̢̡̛̰̫̰̻͚̫̻͔̱͇̱̜̳͙͖͚̫͂ͣ͑̿̍̈́͑̃̄ͤ̅̆̑̚̚̚͘͠ͅȩ̝͎̰ͨ̌̒ͤ̎̃̈́ͨ̉̒̌ͮͥ̂̒̚̚͞ȧ̶̛̼̯͚̘̺͔̲̯̜͕̖͔͇̪̦͇͒̂̐̊̉̒͋ͣ̃̐͒̏̉̚̕ͅl̸̡͖̜̲̯̱̻̞̼̖̦̼͚̣̱̜͉̬̆ͯ̏͌͐̐̏ͮ͌ͯ̔ͬ̈́͊D̴̝̪͔̦̤ͪ͛̃ͮ̎̔͛̒̍̓ͮ̌̍̎̀̚̚̚͢͟͞i̔̆ͣͣ̒̆̃ͥ̇̉̐̃͌̑ͮͣ̄̃͏̧̳̜͔͚̗͞v̶̖̘̘͖͚͈̺͍̭͚ͥ͒̌͗̊ͥͥ̉̂ͬ̈̇͐̒͑̃́̕͝͝', { duration: 1500,  });
  sr.reveal('.Reveallext', {delay:100, duration: 1000,  rotate: {x: 90}});
  sr.reveal('.RevealIntoParallax', {delay:300, duration: 1500,  rotate: {x: 90}});
  sr.reveal('.RevealElementForm',{ delay: 150, duration: 800 }, 300);
+
+
 });
