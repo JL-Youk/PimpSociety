@@ -32,14 +32,12 @@ $(document).ready(function($) {
 		});
 	};
 	juizScrollTo('a[href^="#"]');
-
-window.sr = ScrollReveal();
-
+	window.sr = ScrollReveal();
 	window.sr= new ScrollReveal({
 	reset: true, // faire disparaitre l'élément en dehors du scroll. Par défaut false
 	});
-
  sr.reveal('.RevealDiv', { duration: 1500,  });
  sr.reveal('.Reveallext', {delay:100, duration: 1000,  rotate: {x: 90}});
-sr.reveal('.RevealElementForm',{ delay: 150, duration: 800 }, 300);
+ sr.reveal('.RevealIntoParallax', {delay:300, duration: 1500,  rotate: {x: 90}});
+ sr.reveal('.RevealElementForm',{ delay: 150, duration: 800 }, 300);
 });
