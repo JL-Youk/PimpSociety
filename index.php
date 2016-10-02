@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -29,7 +30,7 @@
 <!-- menu -->
   <nav>
    <div class="nav-wrapper teal accent-4">
-     <div class="container R̛̟̘̦̰̘͉̤ͤͨ̉̽̐͛̽̋͊ͥ͌͋ͮͥ̂̑̚̚͠e̿͛͐̑ͪ͑ͩ̅̈́ͩͮ̀̍̽̍̄̚̚͏͜͏̯̜͓͙͍̳̯̝̦͙͙͕̤̬͎̮͠ͅͅv̢̡̛̰̫̰̻͚̫̻͔̱͇̱̜̳͙͖͚̫͂ͣ͑̿̍̈́͑̃̄ͤ̅̆̑̚̚̚͘͠ͅȩ̝͎̰ͨ̌̒ͤ̎̃̈́ͨ̉̒̌ͮͥ̂̒̚̚͞ȧ̶̛̼̯͚̘̺͔̲̯̜͕̖͔͇̪̦͇͒̂̐̊̉̒͋ͣ̃̐͒̏̉̚̕ͅl̸̡͖̜̲̯̱̻̞̼̖̦̼͚̣̱̜͉̬̆ͯ̏͌͐̐̏ͮ͌ͯ̔ͬ̈́͊D̴̝̪͔̦̤ͪ͛̃ͮ̎̔͛̒̍̓ͮ̌̍̎̀̚̚̚͢͟͞i̔̆ͣͣ̒̆̃ͥ̇̉̐̃͌̑ͮͣ̄̃͏̧̳̜͔͚̗͞v̶̖̘̘͖͚͈̺͍̭͚ͥ͒̌͗̊ͥͥ̉̂ͬ̈̇͐̒͑̃́̕͝͝">
+     <div class="container">
        <a href="#" class="brand-logo waves-effect waves-light">Pimp Society</a>
        <a href="#" data-activates="slide-out" class="button-collapse waves-effect waves-light"><i class="material-icons">menu</i></a>
 
@@ -176,7 +177,57 @@
     <div class="parallax"><img src="images/computer-1209641_1920.jpg"></div>
   </div>
 
+  <div class="container">
+          <div class="section">
 
+            <div class="row">
+              <div class="col s12 m8 offset-m2">
+                <br>
+                <img id="responsive-img" src="images/responsive.png">
+              </div>
+            </div>
+
+            <div class="row">
+              <h3 class="col s12 light center header">Materialize simplifie la vie des développeurs et de leurs utilisateurs.</h3>
+            </div>
+
+            <!--   Promo Section   -->
+            <div class="row">
+              <div class="col s12 m4">
+                <div class="center promo">
+                  <i class="material-icons icon_realisations">flash_on</i>
+                  <p class="promo-caption">Technologie moderne</p>
+                  <p class="light center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                <div class="center promo">
+                  <i class="material-icons icon_realisations">group</i>
+                  <p class="promo-caption">Centré sur l'experience utilisateur</p>
+                  <p class="light center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                <div class="center promo">
+                  <i class="material-icons icon_realisations">settings</i>
+                  <p class="promo-caption">Not bad</p>
+                  <p class="light center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="divider"></div>
+          <div class="section">
+            <div class="row center">
+              <h3 class="light header">CE QUE L'ON A FAIT</h3>
+              <p class="col s8 offset-s2 caption">BLABLABLBBLABLABLABLABLBAL</p>
+              <a href="#" class="btn-large waves-effect waves-light">Découvrir nos créations</a>
+            </div>
+          </div>
+        </div>
 
   <div class="parallax-container">
     <div class="col m12 center divIntoParallax RevealIntoParallax" >
@@ -184,11 +235,23 @@
     </div>
     <div class="parallax"><img src="images/1473424073941.png"></div>
   </div>
+  <div class="parallax-container">
+    <div class="col m12 center divIntoParallax RevealIntoParallax" >
+      Hello
+    </div>
+    <div class="parallax"><img src="images/WHITEHOUSEBEER.jpg"></div>
+  </div>
+  <div class="parallax-container">
+    <div class="col m12 center divIntoParallax RevealIntoParallax" >
+      Hello
+    </div>
+    <div class="parallax"><img src="images/VanGogh-starry_night_ballance1.jpg"></div>
+  </div>
 
 
 <!-- Contact -->
 <div class="row" id="Contact">
-  <h1 class="col s12 light center header RevealElementForm">Contact</h1>
+  <h1 class="col s12 light center header RevealElementForm">UN PROJET ? UNE QUESTION ?</h1>
   <h3 class="col s12 light center header RevealElementForm">blablabla de contact</h3>
 </div>
 <div class="row" >
