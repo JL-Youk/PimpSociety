@@ -72,8 +72,8 @@
      <div class="container">
        <div class="section" >
          <div class="row" >
-           <h1 class="col s12 light center header">Pimp Society</h1>
-           <h3 class="col s12 light center header">Offrez-vous des sites et applications sur mesure !</h3>
+           <h1 class="col s12 light center header">P/50E1tY;</h1>
+           <h3 class="col s12 light center header">Offrez-vous d'élégante applications et sites sur mesure !</h3>
          </div>
        </div>
      </div>
