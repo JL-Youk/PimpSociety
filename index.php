@@ -1,5 +1,5 @@
-
 <!DOCTYPE html>
+
 <html>
   <head>
     <!--Import Google Icon Font-->
@@ -21,11 +21,17 @@
     <script src="js/scrollTo.js"></script>
     <script src="js/init.js"></script>
     <script src="js/scrollreveal.js"></script>
+    <script src="js/particules.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
     <!-- loader -->
-<div id="loaderback" ><div id="loader" class="loader"></div> </div>
+<div id="loaderback" >
+  <div id="particles-js-loader">
+    <div id="loader" class="loader">
+    </div>
+  </div>
+</div>
 
 <!-- menu -->
   <nav>
@@ -61,17 +67,19 @@
  <!--fin menu mobil-->
 
  <!-- Slide1 -->
- <div class="container">
-  <div class="section">
-    <div class="row">
-      <h1 class="col s12 light center header">Pimp Society</h1>
-      <h3 class="col s12 light center header">Offrez-vous des sites et applications sur mesure !</h3>
-    </div>
-  </div>
-</div>
+ <div id="particles-js" style="min-height: 400px;" >
+   <div class="panel" style="display: block;">
+     <div class="container">
+       <div class="section" >
+         <div class="row" >
+           <h1 class="col s12 light center header">Pimp Society</h1>
+           <h3 class="col s12 light center header">Offrez-vous des sites et applications sur mesure !</h3>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
  <!--Fin  Slide1 -->
-
-
 
  <div class="parallax-container">
    <div class="parallax"><img src="images/laptop-1209008_1280.jpg"></div>
@@ -180,12 +188,6 @@
   <div class="container">
           <div class="section">
 
-            <div class="row">
-              <div class="col s12 m8 offset-m2">
-                <br>
-                <img id="responsive-img" src="images/responsive.png">
-              </div>
-            </div>
 
             <div class="row">
               <h3 class="col s12 light center header">Materialize simplifie la vie des développeurs et de leurs utilisateurs.</h3>

@@ -1,5 +1,8 @@
 $(window).load(function() {
 	$("#loaderback").delay('1000').fadeOut("750");
+	particlesJS.load('particles-js-loader', 'assets/particles.json', function() {
+	 console.log('callback - particles.js config loaded');
+ });
 });
 $(document).ready(function($) {
 
@@ -40,4 +43,9 @@ $(document).ready(function($) {
  sr.reveal('.Reveallext', {delay:100, duration: 1000,  rotate: {x: 90}});
  sr.reveal('.RevealIntoParallax', {delay:300, duration: 1500,  rotate: {x: 90}});
  sr.reveal('.RevealElementForm',{ delay: 150, duration: 800 }, 300);
+
+
+ particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 });
