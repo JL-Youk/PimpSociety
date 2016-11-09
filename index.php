@@ -113,6 +113,7 @@
         <div class="col l2 s4 center">
           <h1>
             <i class="material-icons icon_realisations">wb_incandescent</i>
+          </h1>
         </div>
       </div>
       <!-- Droite -->
