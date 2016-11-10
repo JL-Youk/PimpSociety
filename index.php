@@ -177,18 +177,14 @@
       </div>
     </div>
   </div>
-
   <div class="parallax-container">
     <div class="col m12 center divIntoParallax RevealIntoParallax" >
       Hello
     </div>
     <div class="parallax"><img src="images/computer-1209641_1920.jpg"></div>
   </div>
-
   <div class="container">
           <div class="section">
-
-
             <div class="row">
               <h3 class="col s12 light center header">Materialize simplifie la vie des développeurs et de leurs utilisateurs.</h3>
             </div>
@@ -219,7 +215,6 @@
                 </div>
               </div>
             </div>
-
           </div>
           <div class="divider"></div>
           <div class="section">
@@ -249,8 +244,6 @@
     </div>
     <div class="parallax"><img src="images/VanGogh-starry_night_ballance1.jpg"></div>
   </div>
-
-
 <!-- Contact -->
 <div class="row" id="Contact">
   <h1 class="col s12 light center header RevealElementForm">UN PROJET ? UNE QUESTION ?</h1>
@@ -296,7 +289,6 @@
            <label for="textarea1">Message</label>
          </div>
        </div>
-
        <button class="btn waves-effect waves-light z-depth-4 RevealElementForm" type="submit" name="action">Submit
          <i class="material-icons right">send</i>
        </button>
