@@ -62,7 +62,7 @@
    <li><a href="#social">Social</a></li>
    <li><div class="divider"></div></li>
 </ul>
-
+<!-- vendredi c'est nul -->
  <!--fin menu mobil-->
 
  <!-- Slide1 -->
